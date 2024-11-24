@@ -174,7 +174,18 @@ nav .second-nav a:hover {
 .home {
   background-color: white;
   padding: 30px;
+}
+.home>*{
+  /* margin: 10px; */
+}
+.home a {
   text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.home .deals{
+  color: #94004f;
+  font-weight: 600;
 }
 .main-body {
   background-color: whitesmoke;
@@ -251,11 +262,11 @@ nav .second-nav a:hover {
   width: 46%;
   /* padding: 5px; */
   /* margin: 7px; */
-  border-radius: 8px; 
+  border-radius: 8px;
 }
-.main-body .product .product-all a{
+.main-body .product .product-all a {
   text-decoration: none;
-  border:1px solid #ed017f;
+  border: 1px solid #ed017f;
   color: #ed017f;
   display: inline-block;
   display: flex;
@@ -266,15 +277,15 @@ nav .second-nav a:hover {
   border-radius: 6px;
   font-size: 23px;
 }
-.main-body .product .product-all a:hover{
+.main-body .product .product-all a:hover {
   background-color: #ed017f;
   color: white;
 }
-.before-footer{
+.before-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:#2E2E2E;
+  background-color: #2e2e2e;
   color: grey;
   font-size: 12px;
   font-weight: 400;
@@ -283,7 +294,7 @@ nav .second-nav a:hover {
   gap: 4px;
   /* text-align: center; */
 }
-.before-footer a{
+.before-footer a {
   text-decoration: none;
   color: grey;
 }
@@ -292,17 +303,31 @@ nav .second-nav a:hover {
   height: 40px;
   outline: none;
 }
-.before-footer .subscribe .input-the-first{
+.before-footer .subscribe .input-the-first {
   width: 200px;
   border: none;
   border-radius: 5px 0 0 5px;
 }
-.before-footer .subscribe .input-the-second{
+.before-footer .subscribe .input-the-second {
   width: 150px;
   background-color: #ed017f;
   color: white;
   border: none;
   border-radius: 0 5px 5px 0;
-
-  
+}
+.footer{
+  display: flex;
+  background-color: black;
+  color: grey;
+  padding: 20px;
+}
+.footer h4{
+margin-bottom: 10px;
+}
+.footer p{
+  font-size: 14px;
+}
+.footer p:hover{
+  color: white;
+  cursor: pointer;
 }
