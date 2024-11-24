@@ -294,6 +294,9 @@ nav .second-nav a:hover {
   gap: 4px;
   /* text-align: center; */
 }
+.before-footer .email i, .before-footer .phone, .before-footer.whatsapp{
+
+}
 .before-footer a {
   text-decoration: none;
   color: grey;
@@ -327,7 +330,20 @@ margin-bottom: 10px;
 .footer p{
   font-size: 14px;
 }
-.footer p:hover{
+.footer h4:hover,.footer p:hover{
   color: white;
   cursor: pointer;
+}
+.footer-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.download{
+  display: flex;
+
+}
+.app{
+  display: flex;
+
 }
